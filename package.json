@@ -1,0 +1,12 @@
+{
+  "name": "lost-in-extraction-methods",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Public methods utilities for multilingual conflict-event extraction evaluation",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node tests/test_run_utilities.mjs && node tests/test_run_record_and_metrics.mjs"
+  },
+  "license": "Apache-2.0"
+}

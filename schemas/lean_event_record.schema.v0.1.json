@@ -1,0 +1,238 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/lost-in-extraction/lean-event-record.schema.json",
+  "title": "Lost in Extraction — Lean Event Record",
+  "description": "Model-output schema for Paper 1. Text-bearing values preserve surface forms from the actual input shown to the extraction model. The schema contains no normalized fields or character offsets.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_present",
+    "event_type",
+    "action_text",
+    "actor_or_side_a",
+    "target_or_side_b",
+    "location_text",
+    "date_text",
+    "event_assertion_status",
+    "actor_attribution_status",
+    "claimant",
+    "evidence_quote"
+  ],
+  "properties": {
+    "event_present": {
+      "type": "boolean",
+      "description": "Whether the item contains one eligible primary event under the codebook."
+    },
+    "event_type": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "armed_clash",
+        "remote_or_explosive_violence",
+        "direct_attack_or_targeted_violence",
+        "arrest_detention_or_security_raid",
+        "abduction_or_disappearance",
+        "protest_or_violent_disorder",
+        "disrupted_or_foiled_attack",
+        "other_eligible_event",
+        null
+      ],
+      "description": "Flat type for the primary event; null only when event_present is false."
+    },
+    "action_text": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "description": "Minimal exact substring expressing the primary action, including negation when material; null only when event_present is false."
+    },
+    "actor_or_side_a": {
+      "type": "array",
+      "description": "Exact source mention(s) for the performer or first side. Ordering does not imply initiation in a clash.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "target_or_side_b": {
+      "type": "array",
+      "description": "Exact source mention(s) for the recipient, affected party, detainee/abductee, protested-against entity, or second clash side.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "location_text": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "description": "Most specific exact source substring locating the primary event; null when unstated."
+    },
+    "date_text": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "description": "Exact source substring stating when the primary event occurred, including relative or local-calendar forms; null when unstated."
+    },
+    "event_assertion_status": {
+      "type": "string",
+      "enum": [
+        "reported_as_fact",
+        "claimed_or_alleged",
+        "disputed",
+        "denied",
+        "not_applicable"
+      ],
+      "description": "How the item presents occurrence of the event, not whether the event is externally true."
+    },
+    "actor_attribution_status": {
+      "type": "string",
+      "enum": [
+        "reported_as_fact",
+        "claimed_or_alleged",
+        "disputed",
+        "denied",
+        "unknown",
+        "not_applicable"
+      ],
+      "description": "How the item presents the identity of actor/side A, separately from event occurrence."
+    },
+    "claimant": {
+      "type": "array",
+      "description": "Exact source mention(s) for people or organizations making a material claim, allegation, attribution, or denial. This is an analysis field, not an independently scored extraction slot.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "evidence_quote": {
+      "type": "array",
+      "description": "One to three exact contiguous substrings from the actual model input that collectively support the complete record. No inserted ellipses or normalization.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "maxItems": 3
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "event_present": {
+            "const": false
+          }
+        },
+        "required": [
+          "event_present"
+        ]
+      },
+      "then": {
+        "properties": {
+          "event_type": {
+            "const": null
+          },
+          "action_text": {
+            "const": null
+          },
+          "actor_or_side_a": {
+            "type": "array",
+            "maxItems": 0
+          },
+          "target_or_side_b": {
+            "type": "array",
+            "maxItems": 0
+          },
+          "location_text": {
+            "const": null
+          },
+          "date_text": {
+            "const": null
+          },
+          "event_assertion_status": {
+            "const": "not_applicable"
+          },
+          "actor_attribution_status": {
+            "const": "not_applicable"
+          },
+          "claimant": {
+            "type": "array",
+            "maxItems": 0
+          },
+          "evidence_quote": {
+            "type": "array",
+            "maxItems": 0
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "event_present": {
+            "const": true
+          }
+        },
+        "required": [
+          "event_present"
+        ]
+      },
+      "then": {
+        "properties": {
+          "event_type": {
+            "type": "string",
+            "enum": [
+              "armed_clash",
+              "remote_or_explosive_violence",
+              "direct_attack_or_targeted_violence",
+              "arrest_detention_or_security_raid",
+              "abduction_or_disappearance",
+              "protest_or_violent_disorder",
+              "disrupted_or_foiled_attack",
+              "other_eligible_event"
+            ]
+          },
+          "action_text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "event_assertion_status": {
+            "type": "string",
+            "enum": [
+              "reported_as_fact",
+              "claimed_or_alleged",
+              "disputed",
+              "denied"
+            ]
+          },
+          "actor_attribution_status": {
+            "type": "string",
+            "enum": [
+              "reported_as_fact",
+              "claimed_or_alleged",
+              "disputed",
+              "denied",
+              "unknown"
+            ]
+          },
+          "evidence_quote": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 3
+          }
+        }
+      }
+    }
+  ]
+}
