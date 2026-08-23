@@ -1,0 +1,26 @@
+name: Methods or documentation correction
+description: Report a public-method, schema, documentation, or synthetic-test issue.
+title: "[Methods] "
+labels: ["methods"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include conflict-source text, personal data, credentials, private archive material, or operational details."
+  - type: textarea
+    id: artifact
+    attributes:
+      label: Affected artifact and version
+      description: Identify the public file and version.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Problem
+      description: Describe the methodological, documentation, schema, or software-contract problem using synthetic examples only.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
