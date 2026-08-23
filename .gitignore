@@ -1,0 +1,34 @@
+# Credentials and local configuration
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Dependencies and local tooling
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Private research material
+private/
+working/
+data/raw/
+data/controlled/
+data/restricted/
+data/candidate_pool/
+data/source_locators/
+data/annotations/
+data/translations/
+data/model_outputs/
+runs/raw/
+source-registry*.csv
+production-output*/
+pilot-output*/
+*.html
+*.har
+*.rar
+
+# Generated test output
+coverage/
+tmp/
