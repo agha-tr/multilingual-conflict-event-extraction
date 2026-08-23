@@ -4,6 +4,8 @@
 
 **Public methods snapshot:** v0.2.0, 2026-08-23  
 **Status:** Research in progress; no main-study results; not peer-reviewed  
+**Repository:** [github.com/agha-tr/multilingual-conflict-event-extraction](https://github.com/agha-tr/multilingual-conflict-event-extraction)  
+**OSF Project:** [osf.io/nc5u7](https://osf.io/nc5u7/)  
 **Registration:** Editable OSF Project; formal preregistration pending post-pilot protocol freeze
 
 This project studies whether large language models can faithfully convert multilingual public security texts into compact conflict-event records. It compares extraction directly from naturally occurring original-language text with extraction from a fixed English translation for English, Turkish, Modern Standard Arabic, Persian, standard-script Urdu, and Pashto.
@@ -74,7 +76,7 @@ The editable OSF Project and this repository document development. They do not, 
 
 ## Citation
 
-A `CITATION.cff.template` is included. Before the first public repository commit, the project owner should insert the exact publication name, ORCID, repository URL, and OSF identifier, then rename it to `CITATION.cff`.
+Machine-readable citation metadata is provided in `CITATION.cff`. Until an associated paper and archival DOI are available, cite the versioned repository release and editable OSF Project. The citation metadata identifies Ahmad Agha ([ORCID 0009-0007-1431-9409](https://orcid.org/0009-0007-1431-9409)) as the project author.
 
 ## Licenses
 
