@@ -6,7 +6,7 @@
 
 ## Description
 
-This project develops a source-grounded evaluation of how reliably large language models code conflict events from English, Turkish, Modern Standard Arabic, Persian, standard-script Urdu, and Pashto. Paper 1 compares direct extraction from naturally occurring original-language public source text with extraction from a fixed English-pivot translation. It measures event and field accuracy, unsupported output, and the conversion of claims, allegations, disputes, or denials into facts. The public project contains versioned methods, pilot instruments, schemas, deterministic utilities, and synthetic tests. Sensitive source material, live acquisition materials, annotations, model outputs, and results are not included. Research in progress; formal preregistration pending post-pilot protocol freeze.
+This project develops a source-grounded evaluation of how reliably large language models code conflict events from English, Turkish, Modern Standard Arabic, Persian, standard-script Urdu, and Pashto. Paper 1 compares direct extraction from naturally occurring original-language public source text with extraction from a fixed English-pivot translation. It measures event and field accuracy, unsupported output, and the conversion of claims, allegations, disputes, or denials into facts. The planned public OSF release will contain versioned methods, pilot instruments, schemas, deterministic utilities, and synthetic tests. The OSF Project is currently private and editable. Sensitive source material, live acquisition materials, annotations, model outputs, and results are not included. Research in progress; formal preregistration pending post-pilot protocol freeze.
 
 ## Recommended controlled subjects
 
@@ -42,7 +42,7 @@ Optional: AI governance.
 
 ## Status statement
 
-> Research in progress. OSF Project public; formal preregistration pending post-pilot protocol freeze. No main-study results are reported.
+> Research in progress. OSF Project private; public release pending. Formal preregistration pending post-pilot protocol freeze. No main-study results are reported.
 
 ## License display
 
