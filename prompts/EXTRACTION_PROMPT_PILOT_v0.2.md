@@ -2,7 +2,7 @@
 
 **Paper:** *Lost in Extraction: Native vs. English-Pivot LLM Conflict-Event Coding across Six Languages*  
 **Status:** Locked for excluded pilot runs from this revision onward; freeze as v1.0 only after pilot adjudication  
-**Companion schema:** `04_lean_event_record.schema.json`
+**Companion schema:** `schemas/lean_event_record.schema.v0.1.json`
 
 **Change from v0.1:** Replaced news/monitoring-only language and a headline-dependent tie-breaker with source-neutral wording suitable for eligible news, monitoring, official, and public social-media items. Removed model-facing item identifiers, condition labels, and original-language labels; those remain in the run record. Extraction fields and decision rules are otherwise unchanged.
 
