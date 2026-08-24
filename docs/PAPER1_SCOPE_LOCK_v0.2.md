@@ -3,7 +3,7 @@
 **Status:** Frozen design, 4 August 2026; sampling unit amended before annotation on 14 August 2026  
 **Working title:** *Lost in Extraction: Native vs. English-Pivot LLM Conflict-Event Coding across Six Languages*
 
-> **Amendment notice:** `24_MULTI_SOURCE_AND_COLLECTION_QA_AMENDMENT_v0.2.md` supersedes any news-oriented or single-genre implication in this file. The current unit is a bounded public security-related source item; source origin and delivery channel are separate metadata; collection QA is mandatory. The amendment does not change the RQs, sample cap, schema, conditions, models, run count, or Paper 1/Paper 2 split.
+> **Amendment notice:** `MULTI_SOURCE_AND_COLLECTION_QA_AMENDMENT_v0.2.md` supersedes any news-oriented or single-genre implication in this file. The current unit is a bounded public security-related source item; source origin and delivery channel are separate metadata; collection QA is mandatory. The amendment does not change the RQs, sample cap, schema, conditions, models, run count, or Paper 1/Paper 2 split.
 
 ## 1. Core argument
 
