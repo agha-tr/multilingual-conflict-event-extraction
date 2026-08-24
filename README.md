@@ -5,9 +5,8 @@
 **Public methods snapshot:** v0.2.0, 2026-08-23  
 **Status:** Research in progress; no main-study results; not peer-reviewed  
 **Repository:** [github.com/agha-tr/multilingual-conflict-event-extraction](https://github.com/agha-tr/multilingual-conflict-event-extraction)  
-**OSF Project:** OSF Project: Private project; public URL pending.
-
-**Registration:** Editable OSF Project; formal preregistration pending post-pilot protocol freeze
+**OSF Project:** Private project; public URL pending.
+**Registration:** Private editable OSF Project; formal preregistration pending post-pilot protocol freeze
 
 This project studies whether large language models can faithfully convert multilingual public security texts into compact conflict-event records. It compares extraction directly from naturally occurring original-language text with extraction from a fixed English translation for English, Turkish, Modern Standard Arabic, Persian, standard-script Urdu, and Pashto.
 
@@ -73,11 +72,11 @@ The current evaluator covers structural validity, exact-substring checks, event 
 
 ## Preregistration and versioning
 
-The editable OSF Project and this repository document development. They do not, by themselves, constitute preregistration. The formal registration will follow the excluded annotation pilot and promotion of the codebook, schema, prompt, sampling procedure, model specification, translation system, evaluation rules, and ethics plan to their frozen versions. Material changes are recorded in `CHANGELOG.md`.
+The private editable OSF Project and this repository document development. They do not, by themselves, constitute preregistration. The formal registration will follow the excluded annotation pilot and promotion of the codebook, schema, prompt, sampling procedure, model specification, translation system, evaluation rules, and ethics plan to their frozen versions. Material changes are recorded in `CHANGELOG.md`.
 
 ## Citation
 
-Machine-readable citation metadata is provided in `CITATION.cff`. Until an associated paper and archival DOI are available, cite the versioned repository release and editable OSF Project. The citation metadata identifies Ahmad Agha ([ORCID 0009-0007-1431-9409](https://orcid.org/0009-0007-1431-9409)) as the project author.
+Machine-readable citation metadata is provided in `CITATION.cff`. Until an associated paper and archival DOI are available, cite this versioned repository release. An OSF citation will be added after the project has a public URL. The citation metadata identifies Ahmad Agha ([ORCID 0009-0007-1431-9409](https://orcid.org/0009-0007-1431-9409)) as the project author.
 
 ## Licenses
 
