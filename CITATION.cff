@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use these methods or software, please cite the archived release and associated paper."
+message: "If you use these methods or software, please cite this versioned repository release."
 title: "Lost in Extraction: Native vs. English-Pivot LLM Conflict-Event Coding across Six Languages"
 type: software
 authors:
@@ -17,7 +17,3 @@ keywords:
   - English-pivot translation
 license: Apache-2.0
 repository-code: "https://github.com/agha-tr/multilingual-conflict-event-extraction"
-identifiers:
-  - type: url
-    value: "https://osf.io/nc5u7/"
-    description: "Editable OSF Project"
