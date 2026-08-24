@@ -2,9 +2,9 @@
 
 ## Current status
 
-The OSF Project is an editable public research record. It is not a formal preregistration. The project should display this statement:
+The OSF Project is a private editable research record. It is not a formal preregistration. Until the project becomes public, it should display this statement:
 
-> OSF Project public; formal preregistration pending post-pilot protocol freeze. No main-study results are reported.
+> OSF Project private; public release pending. Formal preregistration pending post-pilot protocol freeze. No main-study results are reported.
 
 ## Registration gate
 
