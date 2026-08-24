@@ -5,7 +5,7 @@
 **Public methods snapshot:** v0.2.0, 2026-08-23  
 **Status:** Research in progress; no main-study results; not peer-reviewed  
 **Repository:** [github.com/agha-tr/multilingual-conflict-event-extraction](https://github.com/agha-tr/multilingual-conflict-event-extraction)  
-**OSF Project:** Private project; public URL pending.
+**OSF Project:** Private project; public URL pending.  
 **Registration:** Private editable OSF Project; formal preregistration pending post-pilot protocol freeze
 
 This project studies whether large language models can faithfully convert multilingual public security texts into compact conflict-event records. It compares extraction directly from naturally occurring original-language text with extraction from a fixed English translation for English, Turkish, Modern Standard Arabic, Persian, standard-script Urdu, and Pashto.
