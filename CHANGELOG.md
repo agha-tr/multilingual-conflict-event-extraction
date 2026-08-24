@@ -4,7 +4,7 @@
 
 ### Added
 
-- synchronized public packages for GitHub and the editable OSF Project;
+- prepared a public-methods package for GitHub and a separate private editable OSF development snapshot;
 - current project status, public collection-design summary, ethics policy, preregistration status, and release boundary;
 - pilot codebook v0.2, extraction prompt v0.2, lean model-output schema v0.1, and run-record schema v0.1;
 - deterministic prompt, output, run-record, and structural-evaluation utilities;
