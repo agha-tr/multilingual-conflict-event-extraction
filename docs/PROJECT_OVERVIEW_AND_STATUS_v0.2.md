@@ -1,7 +1,7 @@
 # Project overview and status v0.2
 
 **Project:** *Lost in Extraction: Native vs. English-Pivot LLM Conflict-Event Coding across Six Languages*  
-**Snapshot date:** 2026-08-23  
+**Snapshot date:** 2026-09-04  
 **Status:** Public methods snapshot; research in progress; no main-study results
 
 ## Purpose
@@ -26,12 +26,13 @@ Paper 1 evaluates multilingual conflict-event extraction and the effect of a fix
 - Pilot codebook and extraction prompt are at v0.2; the lean model-output and run-record schemas are pilot v0.1.
 - Deterministic prompt, output, run-record, and structural-evaluation utilities pass synthetic tests.
 - Retrieval and collector engineering have been tested internally, but those live acquisition materials are not part of this public release.
+- The source panel has been selected for continued internal verification. The operational registry, acquisition locators, and source-level decisions remain private and are not yet production-frozen.
 - Candidate acquisition is in progress. No candidate is a benchmark item until collection QA and sampling decisions are completed.
 - No final gold annotation, canonical extraction run, result, or performance claim is included.
 
 ## Decisions still required before formal preregistration
 
-- final temporal window and common source-origin/channel targets;
+- final temporal window and production freeze of the internally selected source panel;
 - final annotation-pilot adjudication and instrument changes;
 - exact model identifiers, versions, and inference settings;
 - fixed English translation system and translation-preservation rules;

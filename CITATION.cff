@@ -1,13 +1,13 @@
 cff-version: 1.2.0
-message: "If you use these methods or software, please cite this versioned repository release."
+message: "If you use these methods or software, please cite the OSF project DOI and this versioned GitHub release."
 title: "Lost in Extraction: Native vs. English-Pivot LLM Conflict-Event Coding across Six Languages"
 type: software
 authors:
   - family-names: "Agha"
     given-names: "Ahmad"
     orcid: "https://orcid.org/0009-0007-1431-9409"
-version: "0.2.0-public-methods"
-date-released: "2026-08-24"
+version: "0.2.1-public-methods"
+date-released: "2026-09-04"
 abstract: "Public methods and deterministic utilities for a six-language evaluation of native versus English-pivot LLM conflict-event coding. No benchmark data or results are included in this release."
 keywords:
   - multilingual NLP
@@ -17,3 +17,8 @@ keywords:
   - English-pivot translation
 license: Apache-2.0
 repository-code: "https://github.com/agha-tr/multilingual-conflict-event-extraction"
+url: "https://osf.io/nc5u7/"
+identifiers:
+  - type: doi
+    value: "10.17605/OSF.IO/NC5U7"
+    description: "DOI for the editable public OSF Project"

@@ -1,4 +1,4 @@
-# Recommended OSF metadata v0.2
+# Recommended OSF metadata v0.2.1
 
 ## Title
 
@@ -6,7 +6,16 @@
 
 ## Description
 
-This project develops a source-grounded evaluation of how reliably large language models code conflict events from English, Turkish, Modern Standard Arabic, Persian, standard-script Urdu, and Pashto. Paper 1 compares direct extraction from naturally occurring original-language public source text with extraction from a fixed English-pivot translation. It measures event and field accuracy, unsupported output, and the conversion of claims, allegations, disputes, or denials into facts. The planned public OSF release will contain versioned methods, pilot instruments, schemas, deterministic utilities, and synthetic tests. The OSF Project is currently private and editable. Sensitive source material, live acquisition materials, annotations, model outputs, and results are not included. Research in progress; formal preregistration pending post-pilot protocol freeze.
+This project develops a source-grounded evaluation of how reliably large language models code conflict events from English, Turkish, Modern Standard Arabic, Persian, standard-script Urdu, and Pashto. Paper 1 compares direct extraction from naturally occurring original-language public source text with extraction from a fixed English-pivot translation. It measures event and field accuracy, unsupported output, and the conversion of claims, allegations, disputes, or denials into facts. The public project contains versioned methods, pilot instruments, schemas, deterministic utilities, and synthetic tests. Sensitive source material, live acquisition materials, annotations, model outputs, and results are not included. Research in progress; formal preregistration pending post-pilot protocol freeze.
+
+## Public identifiers
+
+- OSF Project: https://osf.io/nc5u7/
+- DOI: https://doi.org/10.17605/OSF.IO/NC5U7
+- GitHub repository: https://github.com/agha-tr/multilingual-conflict-event-extraction
+- Versioned public methods release: `v0.2.1-public-methods`
+
+The DOI identifies the editable public OSF Project. The GitHub release tag identifies this exact version of the public methods snapshot.
 
 ## Recommended controlled subjects
 
@@ -42,7 +51,7 @@ Optional: AI governance.
 
 ## Status statement
 
-> Research in progress. OSF Project private; public release pending. Formal preregistration pending post-pilot protocol freeze. No main-study results are reported.
+> Research in progress. OSF Project public; formal preregistration pending post-pilot protocol freeze. No main-study results are reported.
 
 ## License display
 
